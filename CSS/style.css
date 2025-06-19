@@ -1,0 +1,25 @@
+p{
+    background-color: yellow;
+}
+
+a{
+    background-color: red;
+    color: white;
+    display:block;
+}
+
+h1{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    /* background-image: linear-gradient(purple,orange); */
+    /* background-image: radial-gradient(red,yellow); */
+    background-image: url(https://cdn.pixabay.com/photo/2022/08/24/05/44/duck-7406987_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
