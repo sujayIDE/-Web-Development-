@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: #d62828;
+    height: 30px;
+    padding: 23px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item,.navbar-nav{
+    display: inline; 
+    word-spacing: 20px;
+    margin-left: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: #560b0b;
+      color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+}
+
+.nav-brand{
+    text-decoration: none;
+    color: white;
+    word-spacing: 20px;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.banner{
+   height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.4)),url(res.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.banner-card{
+    background-color: rgba(27, 3, 6, 0.9);
+    width: 700px;
+    color: white;
+    border-top: 2px solid red;
+    margin: 200px auto;
+    padding: 20px;
+} 
+
+.banner-btn{
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 10px 25px; 
+    color: white;
+    margin-top: 10px;
+    margin-left: 265px;
+    transition: background-color.8s;
+}
+
+.banner-btn:hover{
+    background-color: #de0c0c;
+}
